@@ -3,7 +3,7 @@
 namespace Tests\Cases;
 
 use DateTime;
-use FilipSedivy\EET;
+use XSuchy09\EET;
 use Ramsey\Uuid\Uuid;
 use Tester\Assert;
 use Tester\TestCase;

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace FilipSedivy\EET;
+namespace XSuchy09\EET;
 
 class Potvrzeni
 {
