@@ -68,6 +68,6 @@
         "cs": "phpcs --standard=phpcs.xml --encoding=utf-8 -sp src/ tests/cases/",
         "cbf": "phpcbf --standard=phpcs.xml --colors --encoding=utf-8 -nsp src/ tests/",
         "tester": "tester -s -c ./tests/php.ini ./tests",
-        "coverage": "nunjuck -p phpdbg tests -s --coverage ./coverage.xml --coverage-src ./src"
+        "coverage": "tester -p phpdbg tests -s --coverage ./coverage.xml --coverage-src ./src"
     }
 }
